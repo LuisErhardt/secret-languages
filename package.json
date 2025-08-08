@@ -1,6 +1,6 @@
 {
   "name": "secret-languages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Translate text to or from secret languages",
   "main": "dist/translations.js",
   "author": "Luis Erhardt",
@@ -10,6 +10,11 @@
     "test": "jest",
     "deploy": "npm test && npm run build && npm publish"
   },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "keywords": [],
   "license": "MIT",
   "type": "commonjs",
