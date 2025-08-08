@@ -4,10 +4,13 @@
   "description": "Translate text to or from secret languages",
   "main": "dist/translations.js",
   "author": "Luis Erhardt",
-  "git repository": "https://github.com/LuisErhardt/secret-languages",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuisErhardt/secret-languages"
+  },
   "scripts": {
     "build": "tsup",
-    "test": "jest",
+    "test": "jest --coverageDirectory=_tests_/coverage",
     "deploy": "npm test && npm run build && npm publish"
   },
   "files": [
