@@ -1,0 +1,22 @@
+{
+  "name": "secret-languages",
+  "version": "1.0.0",
+  "description": "Translate text to or from secret languages",
+  "main": "dist/translations.js",
+  "author": "Luis Erhardt",
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}
