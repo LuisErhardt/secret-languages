@@ -7,7 +7,8 @@
   "git repository": "https://github.com/LuisErhardt/secret-languages",
   "scripts": {
     "build": "tsup",
-    "test": "jest"
+    "test": "jest",
+    "deploy": "npm test && npm run build && npm publish"
   },
   "keywords": [],
   "license": "MIT",
