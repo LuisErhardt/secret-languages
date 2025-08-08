@@ -4,6 +4,7 @@
   "description": "Translate text to or from secret languages",
   "main": "dist/translations.js",
   "author": "Luis Erhardt",
+  "git repository": "https://github.com/LuisErhardt/secret-languages",
   "scripts": {
     "build": "tsup",
     "test": "jest"
