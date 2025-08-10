@@ -15,16 +15,16 @@ npm install secret-languages
 ```ts
 import { toGruefnisch, fromGruefnisch, toRaeubersprache, fromRaeubersprache } from "secret-languages";
 
-const translation = toGruefnisch("Hallo");
+let translation = toGruefnisch("Hallo");
 console.log(translation); // "Hanafallonofo"
 
-const reverseTranslation = fromGruefnisch("Hanafallonofo");
+let reverseTranslation = fromGruefnisch("Hanafallonofo");
 console.log(reverseTranslation); // "Hallo"
 
-const translation = toRaeubersprache("Hallo");
+translation = toRaeubersprache("Hallo");
 console.log(translation); // "Hohalollolo"
 
-const reverseTranslation = fromRaeubersprache("Hohalollolo");
+reverseTranslation = fromRaeubersprache("Hohalollolo");
 console.log(reverseTranslation); // "Hallo"
 ```
 
