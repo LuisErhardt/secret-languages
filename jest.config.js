@@ -8,5 +8,4 @@ module.exports = {
   transform: {
     ...tsJestTransformCfg,
   },
-  collectCoverage: true,
 };
