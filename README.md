@@ -2,7 +2,7 @@
 
 This project contains functions, that translate text from or to secret languages, which are often used by children.
 
-So far, the languages Grünisch and Räubersprache are implemented.
+So far, the languages Grüfnisch and Räubersprache are implemented.
 
 ## Installation
 
